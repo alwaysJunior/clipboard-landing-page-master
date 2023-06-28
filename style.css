@@ -133,7 +133,6 @@ section{
 
 
 /*WORKFLOW*/
-
 .workflow-section {
     display: flex;
     flex-direction: column;
@@ -143,7 +142,6 @@ section{
 .workflow-section h2 {
     margin-bottom: 1.5rem;
 }
-
 .workflow-tools {
     display: flex;
     flex-direction: column;
@@ -159,6 +157,35 @@ section{
 }
 .workflow-tools .workflow-info h4 {
     margin-bottom: 1rem;
+}
+/*WORKFLOW*/
+
+
+
+/*LOGOS*/
+.company-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.company-logos img:not(:last-child){
+    margin-bottom:4rem;
+}
+/*LOGOS*/
+
+/*CLIPBOARD*/
+.clipboard-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clipboard-section h2 {
+    margin-bottom: 1.5rem;
+}
+.clipboard-section p {
+    margin-bottom: 3rem;
 }
 
 
