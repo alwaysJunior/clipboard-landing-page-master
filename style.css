@@ -59,6 +59,7 @@ p{
 }
 section{
     margin: 7rem 0;
+    text-align: center;
 }
 
 
@@ -110,6 +111,54 @@ section{
 }
 .knowladge-program h3 {
     margin-bottom: 0.8rem;
+}
+/*1. INFO */
+
+
+/*2.INFO*/
+.info-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info-second h2 {
+    margin-bottom: 1.5rem;
+}
+.info-second img {
+    max-width: 100%;
+    margin-top: 3rem;
+}/*2.INFO*/
+
+
+
+/*WORKFLOW*/
+
+.workflow-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workflow-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.workflow-tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.workflow-tools .workflow-info {
+    margin-bottom: 2rem;
+}
+.workflow-tools .workflow-info img {
+    margin: 2rem 0;
+}
+.workflow-tools .workflow-info h4 {
+    margin-bottom: 1rem;
 }
 
 
